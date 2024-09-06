@@ -1,4 +1,6 @@
+
 import { MainDiv } from "./components/MainDiv.jsx";
+
 
 function App() {
   
@@ -6,16 +8,13 @@ function App() {
   return (
     <>
     <h1>Funny thermometer</h1>
-   
-   <div>
-    <MainDiv />
-   </div>
-   
-
-
+    <div>
+      <MainDiv />
+     
+    </div>
+    
     </>
-   
-  )
+  );
 }
 
 export default App
