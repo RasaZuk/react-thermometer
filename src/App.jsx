@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <h1>Funny thermometer</h1>
+    <h1>Thermometer</h1>
     <div>
       <MainDiv />
      

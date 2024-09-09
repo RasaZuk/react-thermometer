@@ -22,6 +22,22 @@ const increaseTemperature = () => {
         setTempColor('twentyFive')
     } else if (newTemp >= 30 && newTemp < 35) {
         setTempColor('thirty')
+    } else if (newTemp >= 35) {
+        setTempColor('thirtyFive')
+    } else if (newTemp <= -1 && newTemp > -5) {
+        setTempColor('minusFive')
+    } else if (newTemp <= -5 && newTemp > -10) {
+        setTempColor('minusTen')
+    } else if (newTemp <= -10 && newTemp > -15 ) {
+        setTempColor('minusFifteen')
+    } else if (newTemp <= -15 && newTemp > -20) {
+        setTempColor('minusTwenty')
+    } else if (newTemp <= -20 && newTemp > -25) {
+        setTempColor('minusTwentyFive')
+    } else if (newTemp <= -25 && newTemp > -30) {
+        setTempColor('minusThirty')
+    } else if (newTemp <= -30) {
+        setTempColor('minusThirtyFive')
     }
 };
 const decreaseTemperature = () => {
@@ -39,7 +55,24 @@ const decreaseTemperature = () => {
         setTempColor('twentyFive')
     } else if (newTemp >= 30 && newTemp < 35) {
         setTempColor('thirty')
+    } else if (newTemp >= 35) {
+        setTempColor('thirtyFive')
+    } else if (newTemp <= -1 && newTemp > -5) {
+        setTempColor('minusFive')
+    } else if (newTemp <= -5 && newTemp > -10) {
+        setTempColor('minusTen')
+    } else if (newTemp <= -10 && newTemp > -15 ) {
+        setTempColor('minusFifteen')
+    } else if (newTemp <= -15 && newTemp > -20) {
+        setTempColor('minusTwenty')
+    } else if (newTemp <= -20 && newTemp > -25) {
+        setTempColor('minusTwentyFive')
+    } else if (newTemp <= -25 && newTemp > -30) {
+        setTempColor('minusThirty')
+    } else if (newTemp <= -30) {
+        setTempColor('minusThirtyFive')
     }
+
 };
 
  
